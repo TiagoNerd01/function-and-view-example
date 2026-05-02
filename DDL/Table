@@ -1,0 +1,9 @@
+create  table users(
+	id serial primary key,
+	name varchar (100),
+	email varchar (100),
+	active boolean
+);
+
+insert into users(id,name,email,active) values (1,'pedro','pedro@gmail.com',true);
+insert into users(id,name,email,active) values (2,'geovana','gio@gmail.com',false);
