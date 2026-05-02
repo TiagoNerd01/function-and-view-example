@@ -1,0 +1,4 @@
+create or replace view active_users_view as
+	select id,name,email from users where active = true;
+
+select * from active_users_view;
